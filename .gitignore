@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+
+# ML artifacts - large files
+*.pt
+*.pth
+*.h5
+*.pkl
+*.npy
+*.npz
+*.onnx
+data/
+junk/
+datasets/
+checkpoints/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Misc
+.env
+*.log
+.DS_Store
